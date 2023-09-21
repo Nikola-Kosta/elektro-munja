@@ -40,17 +40,17 @@ ul {
 }
 
 .background-one {
-    background-image: url("/assets/img/bulb3.jpg");
+    background-image: url("./img/bulb3.jpg");
     background-size: cover;
 }
 
 .background-two {
-    background-image: url("/assets/img/osigurac.jpg");
+    background-image: url("./img/osigurac.jpg");
     background-size: cover;
 }
 
 .background-three {
-    background-image: url("/assets/img/world.jpg");
+    background-image: url("./img/world.jpg");
     background-size: cover;
 }
 
@@ -60,7 +60,7 @@ ul {
 }
 
 .container-left {
-    background-image: url("/assets/img/tools.jpg");
+    background-image: url("./img/assets/img/tools.jpg");
     background-size: cover;
     border-radius: 0.5rem;
     margin-right: 1rem;
