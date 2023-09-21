@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #777;
+
+}
+
+nav {
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    margin-right: 4rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.carousel-item {
+    height: 40rem;
+    background: #777;
+    color: #fff;
+    position: relative;
+}
+
+.item-container {
+    position: absolute;
+    height: 10rem;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    padding-bottom: 30rem;
+    text-shadow: 0.5px 0.5px #000;
+}
+
+.background-one {
+    background-image: url("/assets/img/bulb3.jpg");
+    background-size: cover;
+}
+
+.background-two {
+    background-image: url("/assets/img/osigurac.jpg");
+    background-size: cover;
+}
+
+.background-three {
+    background-image: url("/assets/img/world.jpg");
+    background-size: cover;
+}
+
+.container h2 {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+}
+
+.container-left {
+    background-image: url("/assets/img/tools.jpg");
+    background-size: cover;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    padding: 1.5rem;
+
+}
+
+.container-right {
+    width: 40%;
+    border-radius: 0.5rem;
+
+}
+
+.container-left p {
+    margin: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
+    text-indent: 4rem;
+}
+
+.list-group {
+    background-color: #313031;
+}
+
+.list-group li {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #313031;
+}
+
+/* FOOTER */
+footer {
+    background-color: #131617;
+    color: #fff;
+    padding: 1rem 0 2rem;
+
+}
+
+.single-box {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.footer-left {
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+}
+
+.footer-right {
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+
+.footer-right i {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    color: #fff;
+    margin: 3rem auto;
+    background-color: #313031;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+
+/* AUTHOR CSS */
+.author-left {
+    width: 25%;
+}
+
+.author-left img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.author-right {
+    width: 50%;
+    margin-left: 5rem;
+}
+
+.author-right h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.author-right p {
+    font-size: 1.5rem;
+}
+
+/* PROJECTS CSS */
+.container {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.container-nav {
+    margin-top: 0
+}
+
+.projects h2 {
+    font-size: 3rem;
+    padding: 0.5rem 0 1rem;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+}
+
+.thumbnail {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+    font-size: 2rem;
+
+}
+
+.overlay:hover {
+    opacity: 0.8;
+    transition: .7s ease;
+}
+
+.caption {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 37%;
+}
+
+.caption h3 {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.project-h3 {
+    font-size: 1rem;
+}
+
+.caption h4 {
+    font-size: 1.5rem;
+}
+
+.caption p {
+    font-size: 1rem;
+}
+
+/* SERVICES CSS */
+.services {
+    background-image: url("./img/tools.jpg");
+    background-size: cover;
+}
+
+.container-accordion {
+    width: 50%;
+    margin: 2rem auto 0;
+    padding-bottom: 3rem;
+
+}
+
+.accordion-h2 {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.accordion-button {
+    background-color: #313031;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.accordion-item {
+    background-color: #777;
+    color: #fff;
+}
