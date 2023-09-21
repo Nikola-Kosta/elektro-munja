@@ -60,7 +60,7 @@ ul {
 }
 
 .container-left {
-    background-image: url("./img/assets/img/tools.jpg");
+    background-image: url("./img/tools.jpg");
     background-size: cover;
     border-radius: 0.5rem;
     margin-right: 1rem;
