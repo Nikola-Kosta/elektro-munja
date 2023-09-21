@@ -108,6 +108,10 @@ footer {
     flex-direction: column;
     margin-top: 3rem;
 }
+.my-class{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
 
 footer h3 {
     font-size: 1.8rem;

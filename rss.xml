@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>My Website RSS Feed</title>
+    <link> </link>
+    <description>A feed of the latest articles on my website.</description>
+    <lastBuildDate>Wed, 22 Sep 2023 00:00:00 -0500</lastBuildDate>
+    <item>
+      <title>Pogledajte naš veb sajt!</title>
+      <link>https://nikola-kosta.github.io/elektro-munja/index.html</link>
+      <description>Munja Elektro - Vaš najpouzdaniji partner za električarske usluge. Bilo da se radi o uvođenju novih instalacija ili održavanju starih, popravkama kućne tehnike, zamene keramičkih za automatske osigurače i za još mnogo toga naši električari su tu za Vas!</description>
+      <pubDate>Wed, 22 Sep 2023 02:30:00 -0500</pubDate>
+    </item>
+  </channel>
+</rss>
