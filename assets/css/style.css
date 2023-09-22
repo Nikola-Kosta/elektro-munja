@@ -9,7 +9,9 @@
     nav li {
         font-size: 1.1rem;
     }
-
+    #wrapper{
+        width: 100%;
+    }
     .navbar-navbrand-adjust a {
         font-size: 1.5rem;
     }
@@ -40,13 +42,13 @@
 }
 
 @media screen and (max-width: 768px) {
+
     nav li {
         font-size: 1rem;
     }
     .carousel-inner {
         height: 20rem;
     }
-
     .item-container {
         position: absolute;
         height: 15rem;
@@ -110,9 +112,12 @@
         justify-content: flex-start;
         
     }
-    .navbar-toggler{
-        margin-top: 0.45rem;
+    .navbar-navbrand-adjust a{
+        margin: 0 1rem 0 5rem;
+        text-align: center;
+        font-size:  1.2rem;
     }
+    
     nav li {
         font-size: 1rem;    
     }
@@ -193,7 +198,20 @@
     }
     
 }
-
+@media screen and (max-width: 360px) {
+    #top .container-nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem auto;
+    }
+    .navbar-navbrand-adjust a{
+        margin: 0 auto;
+    }
+    .navbar-brand{
+        justify-content: cente; 
+    }
+   
+}
 /*breakpoints end*/
 body {
     background-color: #777;
@@ -428,7 +446,7 @@ footer a {
 }
 
 .caption h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
     line-height: 1.5rem;
 }
