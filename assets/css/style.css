@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 992px) {
     nav li {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .navbar-navbrand-adjust a {
@@ -32,7 +32,8 @@
         width: 75%;
     }
 
-    #contact h2, #contact h3 {
+    #contact h2,
+    #contact h3 {
         font-size: 1.2rem;
     }
 
@@ -46,10 +47,33 @@
     nav li {
         font-size: 1rem;
     }
+
+    .carousel-item {
+        height: 20rem;
+        background: #777;
+        color: #fff;
+        position: relative;
+    }
+
+    .carousel-inner {
+        height: 20rem;
+    }
+
+    .item-container {
+        position: absolute;
+        height: 15rem;
+        bottom: 50%;
+        left: 0;
+        right: 0;
+        padding-bottom: 3rem;
+        text-shadow: 0.5px 0.5px #000;
+    }
+
     #about-us h2 {
         margin: 0.45rem auto 1rem;
         font-size: 1.2rem;
     }
+
     #about-us h3 {
         font-size: 1.2rem;
     }
@@ -61,22 +85,27 @@
     }
 
     #about-us {
-        width: 75%;
+        width: 76%;
     }
-    
-    .list-group{
+
+    .list-group {
         font-size: 0.5rem;
     }
-    .container .container-right h2{
+
+    .container .container-right h2 {
         font-size: 1.2rem;
     }
-    .container .container-right li{
+
+    .container .container-right li {
         font-size: 0.8rem;
     }
-    .btn-outline-light{
+
+    .btn-outline-light {
         font-size: 0.8rem;
     }
-    #contact h2, #contact h3 {
+
+    #contact h2,
+    #contact h3 {
         font-size: 1rem;
     }
 
@@ -90,10 +119,17 @@
     nav li {
         font-size: 1rem;
     }
+    
+
+    nav {
+        font-size: 1.5rem;
+    }
+
     #about-us h2 {
         margin: 0.45rem auto 1rem;
         font-size: 1.2rem;
     }
+
     #about-us h3 {
         font-size: 1.2rem;
     }
@@ -107,29 +143,36 @@
     #about-us {
         width: 100%;
     }
-    .container-left #about-us{
+
+    .container-left #about-us {
         width: 100%;
         column-width: 12;
     }
-    .container .container-right{
+
+    .container .container-right {
         width: 80%;
         column-width: 12;
-        margin: auto;   
+        margin: 0 auto;
     }
-    
-    .list-group{
+
+    .list-group {
         font-size: 0.5rem;
     }
-    .container .container-right h2{
+
+    .container .container-right h2 {
         font-size: 1.2rem;
     }
-    .container .container-right li{
+
+    .container .container-right li {
         font-size: 0.8rem;
     }
-    .btn-outline-light{
+
+    .btn-outline-light {
         font-size: 0.8rem;
     }
-    #contact h2, #contact h3 {
+
+    #contact h2,
+    #contact h3 {
         font-size: 1rem;
     }
 
@@ -266,7 +309,8 @@ footer h3 {
     font-size: 1.2rem;
     margin-right: 0.5rem;
 }
-.single-box ul{
+
+.single-box ul {
     padding-left: 0;
 }
 
