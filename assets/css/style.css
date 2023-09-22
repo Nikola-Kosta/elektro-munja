@@ -110,16 +110,23 @@
 }
 
 @media screen and (max-width: 576px) {
-    nav {
-        width: 100%;
+    
+    #top .container-nav{
+        align-items:start;
+        justify-content: flex-start;
+        
     }
-
+    .navbar-toggler{
+        margin-top: 0.45rem;
+    }
     nav li {
-        font-size: 1rem;
+        font-size: 1rem;    
     }
 
-    nav {
-        font-size: 1.5rem;
+    .navbar-brand {
+        font-size: 1.8rem;
+        margin-right: 6rem;
+
     }
 
     #about-us h2 {
