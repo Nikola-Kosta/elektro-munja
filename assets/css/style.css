@@ -48,12 +48,6 @@
         font-size: 1rem;
     }
 
-    .carousel-item {
-        height: 20rem;
-        background: #777;
-        color: #fff;
-        position: relative;
-    }
 
     .carousel-inner {
         height: 20rem;
@@ -116,13 +110,13 @@
 }
 
 @media screen and (max-width: 576px) {
-    nav{
+    nav {
         width: 100%;
     }
+
     nav li {
         font-size: 1rem;
     }
-    
 
     nav {
         font-size: 1.5rem;
@@ -182,7 +176,23 @@
     #contact li {
         font-size: 0.7rem;
     }
+    #author-id{
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+    }
+    .author-picture img{
+        width: 100%;
+    }
 
+   .author .author-picture {
+        border-radius: 5%;
+        width: 60%;
+        height: 60%;
+    }
+    footer{
+        width: 100%;
+    }
 }
 
 /*breakpoints end*/
@@ -343,7 +353,6 @@ footer a {
     background-size: cover;
 
 }
-
 .author-picture {
     width: 30%;
 }
@@ -356,7 +365,7 @@ footer a {
 
 .author-text {
     width: 50%;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .author-text p {
