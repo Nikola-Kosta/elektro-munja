@@ -5,6 +5,15 @@
 }
 
 /*breakpoints start*/
+
+@media screen and (max-width: 1199px) {
+    #contact h3{
+        font-size: 1rem;
+    }
+    #contact p{
+        font-size: 0.8rem;
+    }
+}
 @media screen and (max-width: 992px) {
     nav li {
         font-size: 1rem;
@@ -19,7 +28,6 @@
         margin-top: 0.5rem;
         font-size: 1.5rem;
     }
-
     #about-us p {
         margin-top: 0.5rem;
         font-size: 1rem;
@@ -28,36 +36,10 @@
         width: 75%;
     }
     
-    .footer-left {
-        flex-direction: column;
-        margin-top: 2.7rem;
-    }
-    
-    .my-class {
-        font-size: 5rem;
-        margin-right: 0.5rem;
-    }
-    
-    footer h3 {
-        font-size: 1.5rem;
-    }
-    
-    .footer-right {
-        flex-direction: column;
-        margin-top: 2rem;
-    
-    }
-    
-    .footer-right i {
-        font-size: 2rem;
-        margin-right: 0.5rem;
-    }
-    
-
 }
 
 @media screen and (max-width: 768px) {}
-
+@media screen and (max-width: 480px) {}
 /*breakpoints end*/
 body {
     background-color: #777;
