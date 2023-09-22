@@ -7,11 +7,8 @@
 /*breakpoints start*/
 
 @media screen and (max-width: 1199px) {
-    #contact h3{
-        font-size: 1rem;
-    }
-    #contact p{
-        font-size: 0.8rem;
+    .col-sm-4{
+        font-size: 5rem;
     }
 }
 @media screen and (max-width: 992px) {
@@ -28,6 +25,9 @@
         margin-top: 0.5rem;
         font-size: 1.5rem;
     }
+    footer{
+        width: 100%;
+    }
     #about-us p {
         margin-top: 0.5rem;
         font-size: 1rem;
@@ -35,11 +35,17 @@
     #about-us{
         width: 75%;
     }
-    
+    #contact h2, #contact h3{
+        font-size: 1.2rem;
+    }
+    #contact p{
+        font-size: 0.8rem;
+    }
+
 }
 
 @media screen and (max-width: 768px) {}
-@media screen and (max-width: 480px) {}
+
 /*breakpoints end*/
 body {
     background-color: #777;
