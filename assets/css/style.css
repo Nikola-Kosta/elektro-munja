@@ -319,7 +319,8 @@ footer {
 }
 
 .my-class {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    margin-right: 0.3rem;
 }
 
 footer h3 {
@@ -335,7 +336,7 @@ footer h3 {
 }
 
 .footer-right i {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-right: 0.5rem;
 }
 
