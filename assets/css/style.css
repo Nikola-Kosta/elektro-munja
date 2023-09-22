@@ -4,6 +4,61 @@
 
 }
 
+/*breakpoints start*/
+@media screen and (max-width: 992px) {
+    nav li {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        margin-right: 3rem;
+    }
+
+    #about-us h2 {
+        margin-top: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    #about-us p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+    #about-us{
+        width: 75%;
+    }
+    
+    .footer-left {
+        flex-direction: column;
+        margin-top: 2.7rem;
+    }
+    
+    .my-class {
+        font-size: 5rem;
+        margin-right: 0.5rem;
+    }
+    
+    footer h3 {
+        font-size: 1.5rem;
+    }
+    
+    .footer-right {
+        flex-direction: column;
+        margin-top: 2rem;
+    
+    }
+    
+    .footer-right i {
+        font-size: 2rem;
+        margin-right: 0.5rem;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {}
+
+/*breakpoints end*/
 body {
     background-color: #777;
 
@@ -50,7 +105,7 @@ ul {
 }
 
 .background-three {
-    background-image: url("../img/gworld.jpg");
+    background-image: url("../img/world.jpg");
     background-size: cover;
 }
 
@@ -60,7 +115,7 @@ ul {
 }
 
 .container-left {
-    background-image: url("./img/tools.jpg");
+    background-image: url("../img/tools.jpg");
     background-size: cover;
     border-radius: 0.5rem;
     margin-right: 1rem;
@@ -108,7 +163,8 @@ footer {
     flex-direction: column;
     margin-top: 3rem;
 }
-.my-class{
+
+.my-class {
     font-size: 1.5rem;
     margin-right: 0.5rem;
 }
@@ -148,7 +204,7 @@ footer a {
 
 /* AUTHOR CSS */
 .author-left {
-    width: 25%;
+    width: 20rem;
 }
 
 .author-left img {
@@ -267,7 +323,8 @@ footer a {
     color: #fff;
     font-size: 1rem;
 }
-.accordion-button:hover{
+
+.accordion-button:hover {
     opacity: 0.5;
 }
 
