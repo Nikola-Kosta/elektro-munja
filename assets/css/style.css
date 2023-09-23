@@ -9,9 +9,11 @@
     nav li {
         font-size: 1.1rem;
     }
-    #wrapper{
+
+    #wrapper {
         width: 100%;
     }
+
     .navbar-navbrand-adjust a {
         font-size: 1.5rem;
     }
@@ -29,7 +31,11 @@
     #about-us {
         width: 75%;
     }
-
+    .services .accordion-h2 {
+        padding-top: 1.2rem;
+        font-size: 2.1rem;
+        color: #fff;
+    }
     #contact h2,
     #contact h3 {
         font-size: 1.2rem;
@@ -46,9 +52,11 @@
     nav li {
         font-size: 1rem;
     }
+
     .carousel-inner {
         height: 20rem;
     }
+
     .item-container {
         position: absolute;
         height: 15rem;
@@ -76,6 +84,11 @@
 
     #about-us {
         width: 76%;
+    }
+    .services .accordion-h2 {
+        padding-top: 1rem;
+        font-size: 1.9rem;
+        color: #fff;
     }
 
     .list-group {
@@ -106,20 +119,20 @@
 }
 
 @media screen and (max-width: 576px) {
-    
-    #top .container-nav{
-        align-items:start;
-        justify-content: flex-start;
-        
+
+    #top .container-nav {
+        align-items: start;
+        justify-content: center;
+
     }
-    .navbar-navbrand-adjust a{
-        margin: 0 1rem 0 5rem;
-        text-align: center;
-        font-size:  1.2rem;
+
+    .navbar-navbrand-adjust a {
+        margin: 0 1rem 0 0;
+        font-size: 1.2rem;
     }
-    
+
     nav li {
-        font-size: 1rem;    
+        font-size: 1rem;
     }
 
     .navbar-brand {
@@ -182,36 +195,57 @@
     #contact li {
         font-size: 0.7rem;
     }
-    #author-id{
+
+    #author-id {
         flex-direction: column;
-        width: 70%;
+        width: 60%;
         align-items: center;
     }
-    .author-picture img{
+    #author-id h2{
+        font-size: 1.3rem;
+    }
+    #author-id p{
+        font-size: 1rem;
+    }
+    .author-picture img {
         width: 100%;
     }
 
-   .author .author-picture {
+    .author .author-picture {
         border-radius: 5%;
-        width: 60%;
-        height: 60%;
+        width: 50%;
+        height: 50%;
     }
-    
+
 }
-@media screen and (max-width: 360px) {
+
+@media screen and (max-width: 361px) {
     #top .container-nav {
         flex-direction: column;
         align-items: center;
         margin: 1rem auto;
     }
-    .navbar-navbrand-adjust a{
+
+    
+    .navbar-navbrand-adjust a {
         margin: 0 auto;
+        font-size: 1.5rem;
     }
-    .navbar-brand{
-        justify-content: cente; 
+    .navbar-toggler{
+        font-size: 1rem;
     }
-   
+
+    .navbar-brand {
+        justify-content: center;
+    }
+    #author-id h2{
+        font-size: 1rem;
+    }
+    #author-id p{
+        font-size: 0.7rem;
+    }
 }
+
 /*breakpoints end*/
 body {
     background-color: #777;
@@ -369,6 +403,7 @@ footer a {
     background-size: cover;
 
 }
+
 .author-picture {
     width: 30%;
 }
